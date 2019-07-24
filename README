@@ -2,7 +2,7 @@ Often I am given a subnet when having the individual IP addresses would be bette
 
 This tool is designed to address the situation where I want to convert a valid subnet into individual IP addresses, but don't want to fuss with manually recording them.
 
-It takes as input, either a single subnet with the '-s' flag, or an input file via the '-if' flag and writes the individual IP addresses to stdout.
+It takes as input, either a single subnet in CIDR notation with the '-s' flag, or an input file via the '-if' flag and writes the individual IP addresses to stdout.
 
 Optionally, it can also write the individual IP addresses to an output file via the '-of' flag. 
 
